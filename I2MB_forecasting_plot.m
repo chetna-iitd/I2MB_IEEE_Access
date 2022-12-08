@@ -1,4 +1,4 @@
-load('Jan28_training_iter.mat');
+load('training_iter.mat');
 
 xx=0.05:0.1:0.95;
 for i=1:1:size(xx,2)

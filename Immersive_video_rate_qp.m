@@ -1,6 +1,5 @@
 function [ rate_all,rate_qp,rate_tile,qual_all,qual_qp,qual_tile  ] = Immersive_video_rate_qp( video_index,qp,tile)
-%IMMERSIVE_VIDEO_RATE_QP Summary of this function goes here
-%   load rd.mat and hn.mat before executing this  
+%IMMERSIVE_VIDEO_RATE_QP 
 v = evalin('base', 'video_bitrate_data');
 rate_all=v{1,video_index};
 rate_qp(1,:)=rate_all(qp,tile,:);
